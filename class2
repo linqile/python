@@ -1,0 +1,15 @@
+class  linjia(object):
+    def __init__(self,name,age,pv):
+        self.name = name
+        self.age = age
+        self.pv = pv
+
+    def op(self):
+        print('Name:%s Age:%s Province:%s' % (self.name,self.age,self.pv))
+
+l=linjia('linshilong',35,'guangdong')
+h=linjia('linshihao',32,'guangzhou')
+j=linjia('linshijie',31,'guangxi')
+l.op()
+h.op()
+j.op()
